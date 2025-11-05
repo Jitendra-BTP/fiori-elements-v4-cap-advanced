@@ -4,5 +4,3 @@ using from './travel_processor/labels';
 
 using from './travel_processor/value-helps';
 using from './travel_processor/layouts';
-
-using from './customer/annotations';
