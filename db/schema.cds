@@ -88,3 +88,10 @@ AllowedExpressions: 'SingleRange'                                 //
 		AllowedExpressions: 'SingleRange'                                 //
 	}]}                                                                   //
 });                                                                 //
+
+annotate Travel with @(
+   Capabilities.DeleteRestrictions : {
+       $Type : 'Capabilities.DeleteRestrictionsType',
+      Deletable: TravelStatus.insertDeleteRestriction
+   }   
+);
