@@ -160,8 +160,7 @@
                                         "route": "TravelObjectPage"
                                     }
                                 }
-                            },
-                            "hideFilterBar": true
+                            }
                         }
                     }
                 },
