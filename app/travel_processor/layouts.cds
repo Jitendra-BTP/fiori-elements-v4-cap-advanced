@@ -643,3 +643,8 @@ annotate TravelService.Booking with {
         Common.ValueListWithFixedValues : true,
 )};
 
+annotate TravelService.Travel @(Common.SideEffects #ReactonItemCreationOrDeletion: {
+    SourceEntities  : [to_Booking],
+    TargetProperties: ['TotalPrice']
+});
+
