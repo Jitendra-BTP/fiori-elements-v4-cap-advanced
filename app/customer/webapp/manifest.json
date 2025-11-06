@@ -30,7 +30,9 @@
         "Customer-display": {
           "semanticObject": "Customer",
           "action": "display",
-          "title": "{{Customer-display.flpTitle}}",
+          "title": "Customers",
+          "subTitle": "Display Customers",
+          "icon": "sap-icon://flight",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
